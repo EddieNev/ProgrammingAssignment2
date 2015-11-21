@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
                 inv <<- NULL
         }
 
-	  ## Return the input matrix
+	  ## Return the input matrix for stage 2
 
         get <- function() x
         setInverse <- function(inverse) inv <<- inverse
